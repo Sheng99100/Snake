@@ -158,8 +158,8 @@ int gameInfo() {
     map();
     gotoprint((POSX + WIDTH)/2 , POSY+3 ,   "----- W A S D TO CONTROL"          );
     gotoprint((POSX + WIDTH)/2 , POSY+5 ,   "----- @ Sheng"                     );
-    gotoprint((POSX + WIDTH)/2 , POSY+9 ,   "----- Email: <y202239365@163.com>" );
-    gotoprint((POSX + WIDTH)/2 , POSY+7 ,   "----- DATE: 2021.1.26"             );
+    gotoprint((POSX + WIDTH)/2 , POSY+7 ,   "----- Email: <y202239365@163.com>" );
+    gotoprint((POSX + WIDTH)/2 , POSY+9 ,   "----- DATE: 2021.1.26"             );
     gotoprint((POSX + WIDTH)/2 , POSY+11 ,  "----- Q). BACK"                    );
     while(1) {
         if( _kbhit() && toupper(getch()) == 'Q' ) { break; }
