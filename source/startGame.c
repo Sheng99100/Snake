@@ -16,9 +16,8 @@ void startGame() {
     CreateSnake();
     initFood();
 
-    while (1)
+    while ( !isOver() )
     {    
-        if( isOver() ) break;
         direction = changeDirection(direction);
         moveSnake(direction);
         printSnake();  
